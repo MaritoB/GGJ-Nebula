@@ -15,10 +15,12 @@ public class BubbleHandler : MonoBehaviour
     float StartSize;
     [SerializeField]
     float CurrentScale;
+    Rigidbody2D rigidbody;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        rigidbody = GetComponent<Rigidbody2D>();
         CurrentScale = StartSize;
     }
 
@@ -33,7 +35,12 @@ public class BubbleHandler : MonoBehaviour
             CurrentScale +=BubbleIncreaseRatio *Time.deltaTime;
         }
 
-        BubbleSprite.transform.localScale = Vector3.one *  CurrentScale ;
-        transform.position.
+        BubbleSprite.transform.localScale = Vector3.one *  CurrentScale ; 
+    }
+    private void FixedUpdate() {
+
+        if(Input.GetKey(KeyCode.Space)){
+            rigidbody.AddForceY(CurrentScale* BubbleUpBaseSpeed * Time.fixedDeltaTime);
+        }
     }
 }
