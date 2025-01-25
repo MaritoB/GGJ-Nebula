@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: be874a9585eac5f4d8499d6fd9ebbdf5
+guid: 079c3382c4a0be744b3d9559b908a9a8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4033767120909612353
-    second: StaticEnemy_Idle_0
+      213: -1760982322666349112
+    second: "vaso pl\xE1stico_back_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StaticEnemy_Idle_0
+      name: "vaso pl\xE1stico_back_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 19
-        width: 597
-        height: 390
+        x: 406
+        y: 437
+        width: 283
+        height: 291
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 145b77c13d1daf730800000000000000
-      internalID: 4033767120909612353
+      spriteID: 8cddab958ebbf87e0800000000000000
+      internalID: -1760982322666349112
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      StaticEnemy_Idle_0: 4033767120909612353
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

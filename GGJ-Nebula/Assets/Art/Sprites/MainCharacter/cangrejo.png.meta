@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: be874a9585eac5f4d8499d6fd9ebbdf5
+guid: 4809de7326056e94eb4e234dc8531b23
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4033767120909612353
-    second: StaticEnemy_Idle_0
+      213: -7800989980792643594
+    second: cangrejo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StaticEnemy_Idle_0
+      name: cangrejo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 19
-        width: 597
-        height: 390
+        x: 48
+        y: 76
+        width: 918
+        height: 990
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 145b77c13d1daf730800000000000000
-      internalID: 4033767120909612353
+      spriteID: 6ff1972a1f05db390800000000000000
+      internalID: -7800989980792643594
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      StaticEnemy_Idle_0: 4033767120909612353
+      cangrejo_0: -7800989980792643594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
