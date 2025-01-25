@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bed93f80b55378d439c47f85a3aedbbc
+guid: c4700655cb19fd44d82b6b3ae5e88684
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -460106657972853708
-    second: mainmenu 1_0
+      213: 1717298279705212019
+    second: burbuja_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mainmenu 1_0
+      name: burbuja_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 21
+        y: 28
+        width: 974
+        height: 973
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4346cbcae6f5d99f0800000000000000
-      internalID: -460106657972853708
+      spriteID: 374f73fcfa115d710800000000000000
+      internalID: 1717298279705212019
       vertices: []
       indices: 
       edges: []
