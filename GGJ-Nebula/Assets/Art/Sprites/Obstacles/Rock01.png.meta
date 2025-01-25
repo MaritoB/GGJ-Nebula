@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 079c3382c4a0be744b3d9559b908a9a8
+guid: 45bd8f8ef663e8446a9a804552517baf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1760982322666349112
-    second: "vaso pl\xE1stico_back_0"
+      213: 1521578458703952382
+    second: Rock01_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,43 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "vaso pl\xE1stico_back_0"
+      name: Rock01_0
       rect:
         serializedVersion: 2
-        x: 406
-        y: 437
-        width: 283
-        height: 291
+        x: 28
+        y: 435
+        width: 1039
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8cddab958ebbf87e0800000000000000
-      internalID: -1760982322666349112
+      spriteID: ef97fe8eb8bbd1510800000000000000
+      internalID: 1521578458703952382
       vertices: []
       indices: 
       edges: []
@@ -160,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "vaso pl\xE1stico_back_0": -1760982322666349112
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

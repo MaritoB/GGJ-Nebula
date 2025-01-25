@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "mara\xF1a cable_back_0": -4420775562406640467
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

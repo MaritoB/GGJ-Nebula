@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      barril toxico_back_0: -7356782967592592170
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
