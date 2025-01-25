@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 63b4266cc6ad3c74b943751c50845a8b
+guid: f8f8bfae4ce977248a72c2ec1b134ae8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5350834578684657424
-    second: MockBubble_0
+      213: -9103222331073559637
+    second: coral_f_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MockBubble_0
+      name: coral_f_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 22
-        width: 265
-        height: 257
+        x: 5
+        y: 136
+        width: 1073
+        height: 715
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f0cf95fc440eb5b0800000000000000
-      internalID: -5350834578684657424
+      spriteID: ba305f4558bdaa180800000000000000
+      internalID: -9103222331073559637
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      MockBubble_0: -5350834578684657424
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
