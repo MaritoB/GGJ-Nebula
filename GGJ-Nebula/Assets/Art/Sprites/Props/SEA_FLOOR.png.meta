@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4688a40da0694ab4b97019024770ef7f
+guid: d397579564336734eb462a17b5960061
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1304755214695285027
-    second: "Ilustraci\xF3n_0"
+      213: 2735806843790366517
+    second: SUELO DE MAR_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Ilustraci\xF3n_0"
+      name: SUELO DE MAR_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 5000
+        x: 14
+        y: 276
+        width: 1056
+        height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32140c274fb6b1210800000000000000
-      internalID: 1304755214695285027
+      spriteID: 537153a54d987f520800000000000000
+      internalID: 2735806843790366517
       vertices: []
       indices: 
       edges: []
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SUELO DE MAR_0: 2735806843790366517
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

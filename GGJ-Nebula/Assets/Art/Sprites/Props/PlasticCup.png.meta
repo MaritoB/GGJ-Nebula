@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d397579564336734eb462a17b5960061
+guid: 335e5e8c345db3f4f8a0387c46dd2eae
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2735806843790366517
-    second: SUELO DE MAR_0
+      213: -215601146846699184
+    second: "vaso pl\xE1stico_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SUELO DE MAR_0
+      name: "vaso pl\xE1stico_0"
       rect:
         serializedVersion: 2
-        x: 14
-        y: 276
-        width: 1056
-        height: 241
+        x: 421
+        y: 453
+        width: 253
+        height: 259
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 537153a54d987f520800000000000000
-      internalID: 2735806843790366517
+      spriteID: 051290536e7020df0800000000000000
+      internalID: -215601146846699184
       vertices: []
       indices: 
       edges: []
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "vaso pl\xE1stico_0": -215601146846699184
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
