@@ -9782,7 +9782,7 @@ GameObject:
   - component: {fileID: 470612714}
   m_Layer: 7
   m_Name: Square (27)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9841,11 +9841,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49f259825a2aabf43a53b8fda22a59de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackasset: {fileID: 0}
   player: {fileID: 1045316716}
   detectionRadius: 5
   speed: 8
-  animator: {fileID: 0}
+  animator: {fileID: 470612714}
 --- !u!58 &470612712
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12632,7 +12631,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 774457398}
-  - component: {fileID: 774457399}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -12657,20 +12655,6 @@ Transform:
   - {fileID: 812546320}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &774457399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 774457397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75d5c9d526ac6024693f9f2636025c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vida: 1
-  "recibeDa\xF1o": 0
 --- !u!1 &798111030
 GameObject:
   m_ObjectHideFlags: 0
@@ -16050,6 +16034,7 @@ GameObject:
   - component: {fileID: 1045316720}
   - component: {fileID: 1045316719}
   - component: {fileID: 1045316721}
+  - component: {fileID: 1045316722}
   m_Layer: 0
   m_Name: Crub
   m_TagString: Player
@@ -16218,6 +16203,20 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.918, y: 0.99}
   m_Direction: 0
+--- !u!114 &1045316722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045316715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75d5c9d526ac6024693f9f2636025c10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 1
+  "recibeDa\xF1o": 0
 --- !u!1 &1051022781
 GameObject:
   m_ObjectHideFlags: 0

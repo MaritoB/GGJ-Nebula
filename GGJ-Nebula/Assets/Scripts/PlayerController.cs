@@ -15,6 +15,15 @@ public class PlayerController : MonoBehaviour
             RecibeDaño();
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            RecibeDaño();
+
+        }
+    }
     public void RecibeDaño()
     {
         vida = 0;
