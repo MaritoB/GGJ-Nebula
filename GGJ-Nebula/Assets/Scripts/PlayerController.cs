@@ -5,14 +5,26 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public int vida = 1;
-    public bool recibeDaño = false;
-
+    public bool recibeDamage = false;
+    public int puntuaci�n = 0;
+    public bool tieneobjeto = false;
+    public int layerProps = 6;
+    public bool puedeCoger = true;
+    public GameObject bolsita;
 
     private void Update()
     {
-        if (recibeDaño)
+        if (recibeDamage)
         {
-            RecibeDaño();
+            RecibeDamage();
+        }
+        if (tieneobjeto)
+        {
+            bolsita.gameObject.SetActive(true);
+        }
+        if (!tieneobjeto)
+        {
+            bolsita.gameObject.SetActive(false);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -20,11 +32,21 @@ public class PlayerController : MonoBehaviour
         
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            RecibeDaño();
+            RecibeDamage();
 
         }
+        if (puedeCoger)
+        {
+            if (collision.gameObject.layer == layerProps)
+            {
+                //tieneobjeto = true;
+            }
+        }
+        
+
+
     }
-    public void RecibeDaño()
+    public void RecibeDamage()
     {
         vida = 0;
         //Paro tiempo

@@ -8,16 +8,23 @@ public class Enemy_01_Controller : MonoBehaviour
     public Transform player;
     public float detectionRadius = 5.0f;
     public float speed = 2.0f;
+    public int PlayerLayer = 8;
 
     private Rigidbody2D rb;
     private Vector2 movement;
-    public Animator animator;
 
     private void Start()
     {
+        
         rb = GetComponent<Rigidbody2D>();
     }
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == PlayerLayer)
+        {
+            player = collision.gameObject.transform;
+        }
+    }
     private void Update()
     {
         
