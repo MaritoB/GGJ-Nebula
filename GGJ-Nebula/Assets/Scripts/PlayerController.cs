@@ -55,6 +55,7 @@ public class PlayerController : MonoBehaviour
     public void Cheater()
     {
         puntuación = 6;
+        tieneobjeto = true;
     }
     
 }
