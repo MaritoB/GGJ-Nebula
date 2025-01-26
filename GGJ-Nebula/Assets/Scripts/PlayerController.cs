@@ -52,6 +52,9 @@ public class PlayerController : MonoBehaviour
         //Paro tiempo
         SceneManager.LoadScene("FinalMenu");
     }
-
+    public void Cheater()
+    {
+        puntuación = 6;
+    }
     
 }
